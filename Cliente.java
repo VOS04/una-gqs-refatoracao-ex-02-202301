@@ -20,7 +20,7 @@ public class Cliente {
     } else if (idade <= 40) {
       return 85.0;
     } else {
-      return 800.0;
+      return 80.0; // fix: Corrigido valor de retorno 800 para 80.0
     }
   }
 
